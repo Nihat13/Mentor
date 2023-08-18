@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Michroma", sans-serif;
+  background-color: #050828;
+}
+
+p {
+  font-family: "Michroma", sans-serif;
+  color: #Fff;
+  max-width: 1440px;
+  height: 500px;
+}
+
+button {
+  background: linear-gradient(124deg, #f95a85, #f70361, #f95420);
+}/*# sourceMappingURL=style.css.map */
