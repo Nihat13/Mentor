@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // padding: 20px 0;
+    
+    .logo{
+        width: 195px;
+        
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    nav{
+        display: flex;
+        align-items: center;
+       ul{
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: end;
+        li{
+            padding-right: 20px;
+            a{
+                font-weight: 700;
+                padding: 20px 20px 20px 0;
+                text-decoration: none;
+                font-family: $font-chakra;
+                color: $color;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                text-transform: uppercase;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+       }
+
+       .btn{
+        button{
+            background: $btn-color;
+            padding: 8px 30px;
+            margin-left: auto;
+            height: 48px;
+            border: none;
+            border-radius: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $color;
+        }
+    }
+
+    }
+    
+}
+
